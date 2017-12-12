@@ -1,10 +1,10 @@
-/*----------------------------------------------------------
- *				HTBLA-Leonding / Klasse: <your class>
+/*----------------------------------------------------------,
+ *				HTBLA-Leonding / Klasse: <2AHIF>
  * ---------------------------------------------------------
  * Exercise Number: 0
- * Title:			trim.h
- * Author:			P. Bauer
- * Due Date:		March 14, 2015
+ * Title:			trim.cpp
+ * Author:			M. Pölzl
+ * Due Date:		December 12, 2017
  * ----------------------------------------------------------
  * Description:
  * Interface for trim
@@ -15,7 +15,6 @@
  #include "string.h"
  #include "stdio.h"
 
- void trim	(	const char * 	source,
-char * 	trimmed_string
-);
+ void trim	(	const char * 	source,char * 	trimmed_string);
+ bool copy_char(const char* source, int i);
 #endif
